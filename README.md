@@ -1,7 +1,7 @@
 ## Tema 1 - HTML
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1](/tema1/pagina.html) | Ejercicio
+[Ejercicio1](/Actividades/Ejercicio1.html) | Ejercicio
 [Ejercicio2](/tema1/biblioteca.xml) | Ejercicio
 [Ejercicio3](/tema1/ejemplo.svg) | Ejercicio
 [Ejercicio4](/tema1/pagina.html) | Ejercicio
