@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .highlight {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Posicionamiento en CSS</h1>
+
+        <h2>Página de Murphy</h2>
+        <p><strong>Estructura del diseño:</strong> La página utiliza un diseño con elementos posicionados de manera absoluta.</p>
+        <p><strong>Posicionamiento CSS:</strong> Se usa <code>position: absolute</code> para colocar elementos en ubicaciones específicas dentro del contenedor.</p>
+        <p><strong>Estilos:</strong> La combinación de <code>absolute</code> y márgenes permite ajustar la distribución del contenido.</p>
+
+        <h2>Página de Software Libre</h2>
+        <p><strong>Estructura del diseño:</strong> Se utilizan bloques de contenido separados y alineados con posicionamiento absoluto.</p>
+        <p><strong>Posicionamiento CSS:</strong> La página emplea <code>position: absolute</code> para distribuir los textos en distintas ubicaciones de la página.</p>
+        <p><strong>Estilos:</strong> Se aplican tamaños de fuente diferenciados y márgenes para crear una estructura clara.</p>
+
+        <h2>Observaciones Generales</h2>
+        <div class="highlight">
+            <p><strong>Diseño Fijo:</strong> Al usar <code>absolute</code>, el contenido no se adapta de manera automática a diferentes tamaños de pantalla.</p>
+            <p><strong>Precisión en la Ubicación:</strong> Permite colocar elementos en lugares específicos, pero puede ser complicado en términos de responsividad.</p>
+        </div>
+    </div>
+</body>
+</html>

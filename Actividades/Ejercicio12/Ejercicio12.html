@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Adaptativa</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    .header {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background: #444;
+      display: flex;
+      justify-content: center;
+    }
+
+    .topnav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .topnav a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .leftcolumn {
+      flex: 70%;
+      padding: 15px;
+    }
+
+    .rightcolumn {
+      flex: 30%;
+      padding: 15px;
+      background: #f1f1f1;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    .fakeimg {
+      background: #aaa;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 800px) {
+      .row {
+        flex-direction: column;
+      }
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .topnav a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Mi Blog Personal</h1>
+    <p>Explorando el mundo del desarrollo web</p>
+  </div>
+
+  <div class="topnav">
+    <a href="#">Inicio</a>
+    <a href="#">Artículos</a>
+    <a href="#">Contacto</a>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Primer Post</h2>
+        <h5>Publicado el 18 de febrero de 2025</h5>
+        <div class="fakeimg">Imagen destacada</div>
+        <p>Este es un artículo de prueba sobre diseño web responsivo.</p>
+      </div>
+      <div class="card">
+        <h2>Segundo Post</h2>
+        <h5>Publicado el 15 de febrero de 2025</h5>
+        <div class="fakeimg">Imagen destacada</div>
+        <p>Aprendiendo sobre CSS, HTML y diseño adaptable.</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>Sobre mí</h2>
+        <div class="fakeimg">Foto</div>
+        <p>Desarrollador web apasionado por la tecnología.</p>
+      </div>
+      <div class="card">
+        <h3>Post populares</h3>
+        <div class="fakeimg">Imagen</div>
+        <div class="fakeimg">Imagen</div>
+      </div>
+      <div class="card">
+        <h3>Redes Sociales</h3>
+        <p>Conéctate conmigo en línea.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Mi Blog Personal</p>
+  </div>
+</body>
+</html>

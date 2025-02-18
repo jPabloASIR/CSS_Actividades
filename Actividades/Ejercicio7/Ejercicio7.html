@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .highlight {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Posicionamiento en CSS</h1>
+
+        <h2>Página de Óscar Wilde</h2>
+        <p><strong>Estructura del diseño:</strong> La página utiliza un diseño de una sola columna donde cada cita se presenta como un párrafo separado.</p>
+        <p><strong>Posicionamiento CSS:</strong> Se basa en el flujo normal del documento sin posicionamiento explícito como <code>float</code>, <code>absolute</code> o <code>relative</code>.</p>
+        <p><strong>Estilos:</strong> Se aplican estilos básicos de texto para mejorar la legibilidad y el espaciado.</p>
+
+        <h2>Página de Efemérides</h2>
+        <p><strong>Estructura del diseño:</strong> El contenido está estructurado con encabezados y párrafos, creando una jerarquía clara.</p>
+        <p><strong>Posicionamiento CSS:</strong> Diseño sencillo que sigue el flujo natural del documento sin <code>float</code> o <code>absolute</code>.</p>
+        <p><strong>Estilos:</strong> Los encabezados se diferencian mediante tamaños de fuente, peso y colores.</p>
+
+        <h2>Observaciones Generales</h2>
+        <div class="highlight">
+            <p><strong>Diseño Responsivo:</strong> La simplicidad del diseño permite que se adapte a diferentes tamaños de pantalla sin esfuerzo adicional.</p>
+            <p><strong>Buenas Prácticas:</strong> Usar el flujo natural del documento y CSS minimalista mejora la compatibilidad y el mantenimiento del código.</p>
+        </div>
+    </div>
+</body>
+</html>
