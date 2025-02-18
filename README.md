@@ -1,6 +1,15 @@
 ## Tema 1 - HTML
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1](/tema1/pagina.html) | Página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección
-[Ejercicio2](/tema1/biblioteca.xml) | Documento xml que incluya información sobre un par de libros de una biblioteca
-[Ejercicio3](/tema1/ejemplo.svg) | Documento svg que sirva de ejemplo para entender el lenguaje
+[Ejercicio1](/tema1/pagina.html) | Ejercicio
+[Ejercicio2](/tema1/biblioteca.xml) | Ejercicio
+[Ejercicio3](/tema1/ejemplo.svg) | Ejercicio
+[Ejercicio4](/tema1/pagina.html) | Ejercicio
+[Ejercicio5](/tema1/pagina.html) | Ejercicio
+[Ejercicio6](/tema1/pagina.html) | Ejercicio
+[Ejercicio7](/tema1/pagina.html) | Ejercicio
+[Ejercicio8](/tema1/pagina.html) | Ejercicio
+[Ejercicio9](/tema1/pagina.html) | Ejercicio
+[Ejercicio10](/tema1/pagina.html) | Ejercicio
+[Ejercicio11](/tema1/pagina.html) | Ejercicio
+[Ejercicio12](/tema1/pagina.html) | Ejercicio
